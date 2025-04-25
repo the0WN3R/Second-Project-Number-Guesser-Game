@@ -1,6 +1,6 @@
-import random
+from random import randint
 
-x = random.choice(range(1, 100))
+x = randint(range(1, 100))
 print("Welcome to the number guessing game!")
 print("I have selected a number between 1 and 100.")
 for _ in range(5):
